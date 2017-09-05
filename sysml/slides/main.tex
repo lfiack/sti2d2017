@@ -22,6 +22,10 @@
 \usepackage{movie15}
 \usepackage{wasysym}
 \usepackage[squaren, Gray, cdot]{SIunits}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+	decorations.pathreplacing,decorations.pathmorphing,shapes,%
+matrix,shapes.symbols,plotmarks,decorations.markings,shadows}
 
 \usepackage{tabularx}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -144,12 +148,12 @@
 		\includegraphics[scale=.3]{./figures/logo_sysml.png}
 	\end{minipage}
 
-	\vspace{2em}
+	\vspace{3em}
 
 	\begin{addmargin}[2em]{2em}
-		SysML est un langage de modélisation graphique dérivé d'UML.\\
+		SysML est un \textbf{langage de modélisation graphique} dérivé d'UML.\\
 		Ce langage va bien au delà des problématiques de l'informatique.\\ 
-		Comme UML, SysML n’est pas une méthode.\\
+		Comme UML, \textbf{SysML n’est pas une méthode}.\\
 	\end{addmargin}
 }
 
@@ -212,7 +216,29 @@
 
 	\vspace{1em}
 	\small ...et bien d'autres !
+}
 
+\definecolor{lorange}{RGB}{250,214,185}
+\definecolor{lyellow}{RGB}{250,250,100}
+\frame{
+	\frametitle{SysML, l'ensemble des 9 diagrammes}
+	\begin{center}
+		\tiny
+		\begin{tikzpicture}[scale=.6]
+			\draw[drop shadow, fill=lorange] (-2.5,-0.5) rectangle (2.5,0.5);
+			\draw (0,0) node{Diagramme SysML};
+
+			\draw[drop shadow, fill=lorange] (-7.5,-1.5) rectangle (-2.5,-2.5);
+			\draw (-5,-2) node{Diagramme comportemental};
+
+			\draw[drop shadow, fill=lorange] (7.5,-1.5) rectangle (2.5,-2.5);
+			\draw (5,-2) node{Diagramme structurel};
+
+			\draw[drop shadow, fill=lyellow] (-1.5,-1.5) rectangle (1.5,-3);
+			\draw (-1.5, -2.5) -- (1.5, -2.5);
+			\draw (0,-2) node[align=center]{Diagramme \\ d'exigences};
+		\end{tikzpicture}
+\end{center}
 }
 \section[s2]{S2}
 \subsection[su1]{SU1}
