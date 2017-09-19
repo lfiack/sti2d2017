@@ -61,19 +61,19 @@ matrix,shapes.symbols,plotmarks,decorations.markings,shadows}
 %%%%%%%%%%%%% appel du plan a chaque subsection
 %% en 1 colonne
 
-\AtBeginSection[]{
-	\frame{%<handout:0>{
-	\frametitle{Plan}
-  \begin{columns}[t]
-  \begin{column}{0.5\linewidth}
-  \tableofcontents[sections={1-3}, currentsection,subsectionstyle=show/show/shaded]
-  \end{column}
-  \begin{column}{0.5\linewidth}
-  \tableofcontents[sections={4-6}, currentsection,subsectionstyle=show/show/shaded]
-  \end{column}
-  \end{columns}
-  }
-}
+%\AtBeginSection[]{
+%	\frame{%<handout:0>{
+%	\frametitle{Plan}
+%  \begin{columns}[t]
+%  \begin{column}{0.5\linewidth}
+%  \tableofcontents[sections={1-3}, currentsection,subsectionstyle=show/show/shaded]
+%  \end{column}
+%  \begin{column}{0.5\linewidth}
+%  \tableofcontents[sections={4-6}, currentsection,subsectionstyle=show/show/shaded]
+%  \end{column}
+%  \end{columns}
+%  }
+%}
 
 %% ou en 2 colonnes s'il y a trop de sections
     
@@ -103,8 +103,8 @@ matrix,shapes.symbols,plotmarks,decorations.markings,shadows}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 		
 %%%%%%%%%%%%% Infos personnelles au document	
-\title[Introduction à SysML]{Introduction à SysML}
-\subtitle{Langage de modélisation graphique de systèmes}
+\title[Histoire des sciences]{Histoire des sciences}
+\subtitle{Histoire des consoles de jeux vidéo}
 \author[Fiack]{Laurent Fiack}
 %\email{}
 \institute[Lycée Blaise Pascal]{Lycée Blaise Pascal}
@@ -200,7 +200,7 @@ matrix,shapes.symbols,plotmarks,decorations.markings,shadows}
 				\begin{itemize}
 					\item Borne d'arcade, 
 					\item Numérique, mais non-programmable 
-					\item (micro-processeur inventé en 1971)
+					\item (microprocesseur inventé en 1971)
 					\item Naissance d'Atari
 				\end{itemize}
 		\end{itemize}
@@ -234,18 +234,82 @@ matrix,shapes.symbols,plotmarks,decorations.markings,shadows}
 
 \frame{
 	\frametitle{Première console de salon!}
-	
+
 	\begin{minipage}[b]{0.48\linewidth}
+		\centering
+		Magnavox Odyssey\\
+		\vspace{4em}
 		\includegraphics[width=1.0\linewidth]{./figures/Magnavox_Odyssey_Logo.png}\\
 		\includegraphics[width=1.0\linewidth]{./figures/Magnavox-Odyssey-Console-Set.jpg}
 	\end{minipage}
 	\hfill
 	\begin{minipage}[b]{0.48\linewidth}
+		\pause
+		\begin{itemize}
+			\item Inventée par \textbf{Ralph Baer}
+			\item Numérique et programmable
+			\item Sans microprocesseur
+		\end{itemize}
+		\pause
+		\begin{itemize}
+			\item 28 jeux
+			\item 2 "manettes"
+			\item Affiche 3 points et 1 ligne
+			\item Nécessite des calques
+		\end{itemize}
+		\pause
+		\includegraphics[width=1.0\linewidth]{./figures/Magnavox-Color-Screen-Overlays.jpg}
 	\end{minipage}
 }
 
 \frame{
+	\frametitle{Ralph H. Baer}
+
+	\begin{minipage}[b]{0.48\linewidth}
+		\begin{itemize}
+			\item Né en allemagne en 1922
+			\item États-Unis en 1938
+			\item Technicien en 1940
+			\item Enrolé en 1943
+			\item Ingénieur en 1949
+			\item Mort en 2014
+		\end{itemize}
+		\begin{itemize}
+			\item Développe l'Odyssey en indépendant
+			\item Essaye de vendre le concept
+				\begin{itemize}
+					\item Fabriquants de téléviseurs
+				\end{itemize}
+			\item Contrat signé avec Magnavox entre 1970 et 1972
+		\end{itemize}
+		\vspace{1em}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.48\linewidth}
+		\centering
+		\includegraphics[width=.9\linewidth]{./figures/Ralph-Baer.jpg}
+	\end{minipage}
+}
+
+\frame{
+	\frametitle{Magnavox Odyssey\href{http://www.digitpress.com/library/techdocs/o2-svc.pdf}{[1]}}
+	\pause
+	\centering
+	\includegraphics[width=.9\linewidth]{./figures/magnavox_inside.png}
+}
+
+\frame{
 	\frametitle{Chronologie}
+	\begin{enumerate}
+		\item Magnavox Odyssey (1972) -> Nintendo Color TV Game (1980)
+		\item Fairchild Channel F (1976) -> Krach du jeux vidéo de 1983 -> Atari 2600 (1992)
+		\item Post Krach de 83 NES (1983) -> Nintendo Famicom (2003)
+		\item NEC PC-Engine (1987) -> SNK Neo Geo (2004)
+		\item 3DO Interactive Multiplayer (1993) -> Sony PSOne (2005)
+		\item Sega Dreamcast (1998) -> Sony PS2 (2013)
+		\item XBox 360 (2005) -> ...
+		\item Wii U (2012) -> ...
+	\end{enumerate}
 	\begin{center}
 		\tiny
 %		red, green, blue, cyan , magenta, yellow, black, gray, darkgray, lightgray, brown, lime, olive, orange, pink, purple, teal, violet and white.
