@@ -90,4 +90,3 @@ Groupe séparé en 2, ITEC et SIN inversés, comme la semaine précédente.
 	* Ex: c'est quoi la différence entre définition bloc et bloc interne ? exigence et cas d'utilisation ? séquence et état ?
 
 Cours + exercices sur le diagramme de séquence et d'état
-
