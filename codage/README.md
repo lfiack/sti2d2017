@@ -16,7 +16,7 @@ Première séance avec les SIN
 -> exprimer la logique sous forme de variable, d'opérateurs et de fonctions
 -> Algèbre binaire n'acceptant que deux valeurs numériques, 0 ou 1, soit vrai, soit faux
 
-	* Travaux de Claude Shannon
+	* Transposition sur circuit électrique (Claude Shannon)
 -> Transposition de l'algèbre booléenne sur circuits électriques : 1 relais fermé, 0 relais ouvert. Remplacé maintenant par des transistors.
 -> Calcul informatique = suite d'opérations sur des paquets de 0 et des 1 généralement regroupés par multiples de 8.
 
@@ -33,3 +33,19 @@ Bug en 2038 -> représentation des dates en 32 bits
 	* Pensez à enregistrer régulièrement et à vérifier que ça ait bien sauvegardé (c'est la première fois qu'on teste ça)
 
 * Pendant l'AP, je note régulièrement où les élèves en sont arrivés.
+
+##11/10/17
+Idem avec groupe ITEC
+-> Plus compliqué parce que le groupe est plus nombreux
+	-> Penser à homogénéiser les groupes
+Explications sur l'en-tête en groupe (1 à 2 îlots)
+* Démonstration en modifiant le niveau de gris max
+	* Les pixels > 254 deviennent noirs -> Explication rebouclage (lien avec la vidéo)
+* Démonstration en modifiant la taille de l'image 
+	* le logiciel n'affiche que les N premières lignes.
+
+##12/10/17
+Fiche de connaissance = synthèse + exos dans le même dossier
+- Codage binaire
+* Tentative travail en groupes de 4
+	* Je ne donne pas la solution au tableau
