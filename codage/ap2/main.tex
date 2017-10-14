@@ -15,6 +15,7 @@
 
 \usepackage{hyperref}
 \usepackage{array}
+\usepackage{color}
  
 \pagestyle{fancy}
 \fancyhf{}
@@ -374,6 +375,54 @@ Le \textbf{code ASCII étendu} (de 128 à 255) permet de représenter les \textb
 \textbf{Tableau représentant la liste du code ASCII à 7 bits :}
 
 \textbf{Exemple de lecture du tableau :} la lettre \textbf{B} est représentée par le groupe codé de b0 à b3 (code ligne) et de b4 à b6
-(code colonne) : \textbf{B flèche 1000010} en binaire soit \textbf{66} en décimal et \textbf{42} en hexadécimal.
-%TODO flèche color=red
+(code colonne) : \textbf{B $\Rightarrow$ \color{red}1000010} en binaire soit \textbf{\color{red}66} en décimal et \textbf{\color{red}42} en hexadécimal.
+
+\begin{center}
+	\includegraphics[scale=.6]{./figures/ascii1.png}
+\end{center}
+\paragraph{Description des codes spéciaux :}
+\begin{center}
+	\includegraphics[scale=.6]{./figures/ascii2.png}
+\end{center}
+\paragraph{Tableau représentant la liste du code ASCII à 8 bits (code ASCII étendu) :\\}
+Les combinaisons de 80 à FF sont à usage strictement national. Ainsi pour ces 128 dernières combinaisons, on trouve
+pour la France les caractères (î, è, à, etc.). Par exemple le caractère â est codé en hexadécimal (83) 16 .
+\begin{center}
+	\includegraphics[scale=.6]{./figures/ascii3.png}
+\end{center}
+\begin{enumerate}
+	\setcounter{enumi}{17}
+	\item Quelle est l'utilité du code ASCII ?\\
+\vspace{1em}
+\begin{Form}
+	\TextField[name=r18,width=\linewidth,height=2.5em,multiline=true]{}
+\end{Form}
+	\item Donner le code décimal, Hexadécimal et binaire des caractères contenus dans le tableau suivant pour un code ASCII 8 bits.
+\begin{center}
+	\begin{Form}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			Caractère & Décimal & Hexadécimal & Binaire\\
+			\hline
+			\hline
+			W & \TextField[name=r19d1,width=4em]{} & \TextField[name=r19h1,width=3em]{} & \TextField[name=r19b1,width=8em]{}\\
+			\hline
+			m & \TextField[name=r19d2,width=4em]{} & \TextField[name=r19h2,width=3em]{} & \TextField[name=r19b2,width=8em]{}\\
+			\hline
+			2 & \TextField[name=r19d3,width=4em]{} & \TextField[name=r19h3,width=3em]{} & \TextField[name=r19b3,width=8em]{}\\
+			\hline
+		\end{tabular}
+	\end{Form}
+\end{center}
+	\item La séquence de bits \textbf{\color{red}1010000100000110001100100001} est une chaîne de caractères ASCII 7 bits.
+		Décoder cette chaîne.\\
+\vspace{1em}
+\begin{Form}
+	\TextField[name=r20,width=\linewidth,height=2.5em,multiline=true]{}
+\end{Form}
+	\item Notez votre prénom sous forme d'une chaîne de carcatères, puis son code ASCII 8-bit en hexadécimal.\\
+\begin{Form}
+	\TextField[name=r21,width=\linewidth,height=2.5em,multiline=true]{}
+\end{Form}
+\end{enumerate}
 \end{document}
