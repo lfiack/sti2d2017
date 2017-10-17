@@ -49,3 +49,25 @@ Fiche de connaissance = synthèse + exos dans le même dossier
 - Codage binaire
 * Tentative travail en groupes de 4
 	* Je ne donne pas la solution au tableau
+
+##16/10/17
+Activité 2 pour les plus rapide, fin activité 1 pour les autres.
+
+Synthèse AP1
+* Fichier image composé de pixels
+* Logiciel de visualisation + éditeur hexadécimal -> État "brut" de la mémoire = Succession de bit, organisé en octets dans le logiciel
+	* Interprété comme un nombre (= Vue décimale, binaire ou hexa)
+	* Interprété comme un niveau de gris
+	* Interprété comme un caractère
+* Comment un fichier image est organisé (header+"payload") -> On peut extrapoler ça à tous types de fichiers.
+	* Le header sert à un logiciel (ou un humain) à décoder le fichier
+	* Le payload est le partie intéressante du fichier (ici l'image)
+* Conversion binaire vers décimal et inversement
+
+Lancement AP2: Codages binaires, hexa, BCD et ASCII. Conversion entre les différents codages.
+Utilisation du logiciel "Guide Des Automates"
+* Vocabulaire
+* Différentes bases utilisées en informatique et conversion
+* Différents codages
+
+Les élèves qui vont plus vite: écrire programme python permettant de passer d'une base à une autre
