@@ -69,5 +69,6 @@ Utilisation du logiciel "Guide Des Automates"
 * Vocabulaire
 * Différentes bases utilisées en informatique et conversion
 * Différents codages
+* Faites les calculs sur feuille
 
 Les élèves qui vont plus vite: écrire programme python permettant de passer d'une base à une autre
