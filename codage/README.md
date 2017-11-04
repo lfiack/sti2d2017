@@ -53,7 +53,7 @@ Fiche de connaissance = synthèse + exos dans le même dossier
 ##16/10/17
 Activité 2 pour les plus rapide, fin activité 1 pour les autres.
 
-Synthèse AP1
+Synthèse AP1 : "Comment l'ordinateur fait-il pour coder une image ?"
 * Fichier image composé de pixels
 * Logiciel de visualisation + éditeur hexadécimal -> État "brut" de la mémoire = Succession de bit, organisé en octets dans le logiciel
 	* Interprété comme un nombre (= Vue décimale, binaire ou hexa)
@@ -72,3 +72,24 @@ Utilisation du logiciel "Guide Des Automates"
 * Faites les calculs sur feuille
 
 Les élèves qui vont plus vite: écrire programme python permettant de passer d'une base à une autre
+
+##19/10/17
+Travail en groupes de 4 : suite de la synthèse et des exercices sur le binaire.
+
+Début du cours sur l'hexadécimal.
+
+##06/11/17
+J'ai commencé à corriger les activités sur SysML, il me manque quelques documents:
+Activité 1:
+Antoine
+Killian (excusé)
+Corentin (vide)
+
+Activité 3:
+Guillaume
+Barclay
+
+J'ai quelques remarques générales : Commencez à prendre des bonnes habitudes :
+Lisez les questions jusqu'au bout ! Apprenez à survoler le sujet jusqu'au bout avant de commencer
+Rédigez vos réponses (attention à la grammaire et à l'orthographe, SVP)
+Faites attention à la tournure de vos phrases : « elle redescend direct »
