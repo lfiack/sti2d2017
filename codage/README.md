@@ -1,4 +1,22 @@
 #Codage de l'information et Numération
+* O4 - Décoder l’organisation fonctionnelle, structurelle et logicielle d’un système
+	* CO4.2. Identifier et caractériser l’agencement matériel et/ou logiciel d’un système
+	* CO4.4. Identifier et caractériser des solutions techniques relatives aux matériaux, à la structure, 
+		à l’énergie et aux informations (acquisition, traitement, transmission) d’un système
+	* CO4.4. Identifier et caractériser des solutions techniques relatives aux matériaux, à la structure, 
+		à l’énergie et aux **informations** (acquisition, traitement, transmission) d’un système
+* O6 - Communiquer une idée, un principe ou une solution technique, un projet, y compris en langue étrangère
+	* CO6.1. Décrire une idée, un principe, une solution, un projet en utilisant des outils de représentation adaptés
+	* CO6.2. Décrire le fonctionnement et/ou l’exploitation d’un système en utilisant l'outil de description le plus pertinent
+
+* 2.1.2 Organisation fonctionnelle d’une chaîne d’information
+	* Caractérisation des fonctions relatives à l'information : acquisition et restitution, codage et traitement, transmission
+* 2.3.6 Comportements informationnels des systèmes
+	* Caractérisation de l’information : expression, visualisation, interprétation, caractérisations temporelle et fréquentielle
+	* Modèles de description en statique et en dynamique
+* 3.1.4 Traitement de l’information
+	* Codage (binaire, hexadécimal, ASCII) et transcodage de l’information, compression, correction
+
 ##09/11/17
 Première séance avec les SIN
 
@@ -79,7 +97,7 @@ Travail en groupes de 4 : suite de la synthèse et des exercices sur le binaire.
 Début du cours sur l'hexadécimal.
 
 ##06/11/17
-J'ai commencé à corriger les activités sur SysML, il me manque quelques documents:
+J'ai commencé à corriger les activités sur SysML, il me manque les rapports de certains d'entre vous:
 Activité 1:
 Antoine
 Killian (excusé)
@@ -93,3 +111,57 @@ J'ai quelques remarques générales : Commencez à prendre des bonnes habitudes 
 Lisez les questions jusqu'au bout ! Apprenez à survoler le sujet jusqu'au bout avant de commencer
 Rédigez vos réponses (attention à la grammaire et à l'orthographe, SVP)
 Faites attention à la tournure de vos phrases : « elle redescend direct »
+
+Il y aura encore une séance, peut-être deux.
+Qui a fini les deux activités?
+
+##08/11/17
+J'ai commencé à corriger les activités sur SysML, il me manque les rapports de certains d'entre vous:
+Activité 1:
+Marwane RACHDI
+
+Activité 2:
+Ethan
+William
+
+Activité 3:
+Ethan
+Mathys
+Illyas
+
+J'ai quelques remarques générales : Commencez à prendre des bonnes habitudes :
+Lisez les questions jusqu'au bout ! Apprenez à survoler le sujet jusqu'au bout avant de commencer
+Rédigez vos réponses (attention à la grammaire et à l'orthographe, SVP)
+Faites attention à la tournure de vos phrases : « elle redescend direct »
+
+Il y aura encore une séance, peut-être deux.
+Qui a fini les deux activités?
+
+##09/11/17
+Évaluation synthèse SysML
+
+##13/11/17
+###Demander à Nathalie
+Comment qu'on met des notes sur pronote
+Qu'est-ce qu'on fait avec les élèves absents au contrôle?
+Guyard Nathan ne m'a pas rendu les compte-rendus. Qu'est qu'on fait?
+
+###Avec mon groupe
+Envoyez-moi le compte-rendu d'activité 1.
+
+Évaluation orale individuelle:
+* Qu'est-ce qu'un pixel
+* Qu'est-ce qu'une en-tête
+* Qu'est-ce qu'un bit ?
+* Qu'est-ce qu'un octet ? Combien peut-il prendre de valeurs différentes ? Valeur min, max ?
+* Qu'elle est la différence entre la base binaire, décimale, hexadécimale ? Qu'elles sont leurs utilités ?
+
+Ensuite, je fais quelques conversions au tableau (sur 6 bits):
+* 10 1101(2) = 1+4+8+32 = 45(10) = 2D(16)
+* 39(10) = 10 0111(2) = 27(16)
+ 	(39 -> 19(1) -> 9(1) -> 4(1) -> 2(0) -> 1(0) -> 0(1))
+* 3A(16) = 11 1010(2) = 32+16+8+2 = 58(10)
+
+Continuer activité 2. Certains sont en retard, c'est la dernière séance d'activité. Il faut avoir fini la partie sur l'hexa.
+Distribuer exercices
+
