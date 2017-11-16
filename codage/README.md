@@ -165,3 +165,9 @@ Ensuite, je fais quelques conversions au tableau (sur 6 bits):
 Continuer activité 2. Certains sont en retard, c'est la dernière séance d'activité. Il faut avoir fini la partie sur l'hexa.
 Distribuer exercices
 
+##15/11/17
+Même que lundi avec l'autre groupe
+
+##16/11/17
+Fin fiche de connaissances : Exercices Hexa
+Exercices supplémentaires

@@ -8,3 +8,8 @@ Illustration de l'utilité de faire attention au codage de l'information.
 
 ##09/11/17
 Aide aux devoirs + Activité mémoire : Court terme/Long terme
+
+##16/11/17
+Test rapidité
+Préparation conseil de classe
+Exercices codage
