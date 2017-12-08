@@ -1,0 +1,298 @@
+\documentclass[miniframe]{lbpbeamer}
+%\documentclass[handout]{lbpbeamer}
+%%%%%%%%%%%%% option de la classe lbpbeamer.cls
+% toutes les options standards de la classe beamer
+% le type d'en-tete pour l'appel des sections : 
+%  - default : currentsection | currentsubsection
+%  - miniframe : sections + puces
+%  - tree : sections + currentsubsection
+%  - split : sections + subsections
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%% appel des packages
+\usepackage[english,french]{babel}
+\usepackage{epsfig}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern} 
+\usepackage{times}
+\usepackage{multirow}
+\usepackage{animate}
+\usepackage{hyperref}
+\usepackage{movie15}
+\usepackage{wasysym}
+\usepackage[squaren, Gray, cdot]{SIunits}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+	decorations.pathreplacing,decorations.pathmorphing,shapes,%
+matrix,shapes.symbols,plotmarks,decorations.markings,shadows}
+
+\usepackage{tabularx}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newcommand{\backupbegin}{
+	\newcounter{framenumberappendix}
+	\setcounter{framenumberappendix}{\value{framenumber}}
+}
+\newcommand{\backupend}{
+	\addtocounter{framenumberappendix}{-\value{framenumber}}
+	\addtocounter{framenumber}{\value{framenumberappendix}} 
+}
+
+%\usepackage{enumitem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newlist{fleche}{itemize}{1}
+%\setlist[fleche]{label=$\rightarrow$,font=\color{blue}}
+
+
+%\newcommand{\smiley}{\tikz[baseline=-0.75ex,black]{
+%		    \draw circle (2mm);
+%			\node[fill,circle,inner sep=0.5pt] (left eye) at (135:0.8mm) {};
+%			\node[fill,circle,inner sep=0.5pt] (right eye) at (45:0.8mm) {};
+%			\draw (-145:0.9mm) arc (-120:-60:1.5mm);
+%			    }
+%			}
+
+\newcommand{\orto}{^{\circ}}
+
+%%%%%%%%%%%%% appel du plan a chaque subsection
+%% en 1 colonne
+
+%\AtBeginSection[]{
+%	\frame{%<handout:0>{
+%	\frametitle{Plan}
+%  \begin{columns}[t]
+%  \begin{column}{0.5\linewidth}
+%  \tableofcontents[sections={1-3}, currentsection,subsectionstyle=show/show/shaded]
+%  \end{column}
+%  \begin{column}{0.5\linewidth}
+%  \tableofcontents[sections={4-6}, currentsection,subsectionstyle=show/show/shaded]
+%  \end{column}
+%  \end{columns}
+%  }
+%}
+
+%% ou en 2 colonnes s'il y a trop de sections
+    
+%\AtBeginSubsection[]{
+%	\frame{%<handout:0>{
+%	\frametitle{Summary}
+%  \begin{columns}[t]
+%  \begin{column}{0.5\linewidth}
+%  \tableofcontents[sections={1-6},currentsection, subsectionstyle=show/shaded/hide]
+%  \end{column}
+%  \begin{column}{0.5\linewidth}
+%  \tableofcontents[sections={7-12},currentsection,subsectionstyle=show/shaded/hide]
+%  \end{column}
+%  \end{columns}
+%  }
+%}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+%%%%%%%%%%%%% Pour supprimer les symboles de navigation
+\setbeamertemplate{navigation symbols}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%% Personnalisation des theoremes
+\newtheorem{theoreme}{Th\'eor\`eme}
+\newtheorem{preuve}{D\'emonstration}
+\newtheorem{define}{D\'efinition}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+		
+%%%%%%%%%%%%% Infos personnelles au document	
+\title[Poursuites d'études]{Poursuites d'études}
+\subtitle{Ou \og{}quoi que c'est qu'on fait après qu'on a le bac ?\fg{}}
+\author[Fiack]{Laurent Fiack}
+%\email{}
+\institute[Lycée Blaise Pascal]{Lycée Blaise Pascal}
+\date[\today]{\today}
+\logo{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\figpath}{figures/}
+
+\usepackage{scrextend}
+
+\begin{document}
+
+%%%%%%%%%%%%% Background des slides	
+\usebackgroundtemplate{}
+%% cet option permet d'ins\'erer une image en fond-ecran
+%% la commande \usebackgroundtemplate{} permet de
+%% supprimer le fond a partir du moment ou il est 
+%% appele
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+%%%%%%%%%%%%% frame title
+\frame{\titlepage}
+\usebackgroundtemplate{}
+\logo{}
+%\logoheader{taille}{emplacement-image}
+%% on supprime les logos des autres frames		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section[Post bac]{Poursuites d'études}
+\subsection[Post bac]{Poursuites d'études}
+\frame{
+	\frametitle{Quelles sont les différentes orientations ?}
+	\begin{itemize}
+		\item BTS/DUT ;
+			\begin{itemize}
+				\item Licence Professionnelle,
+				\item Prépa ATS,
+				\item Certaines écoles d'ingénieurs ;
+			\end{itemize}
+		\item École d'ingénieurs post-bac ;
+		\item Université (Licence/Master) ;
+		\item CPGE (Classe Préparatoire aux Grandes Écoles) TSI (Technologie et Sciences Industrielles)
+			\begin{itemize}
+				\item École d'ingénieurs.
+			\end{itemize}
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{BTS : Brevet de technicien supérieur}
+	Assez proche du DUT. Informations disponibles \texttt{\href{http://www.onisep.fr/Choisir-mes-etudes/Apres-le-bac/Que-faire-apres-le-bac/Que-faire-apres-le-bac-STI2D-sciences-et-technologies-de-l-industrie-et-du-developpement-durable/Les-BTS-et-DUT-apres-le-bac-STI2D}{ici}}.
+	\begin{itemize}
+		\item Formation professionnalisante \textbf{spécialisée} ;
+		\item Formation accessible sur dossier ;
+		\item Se déroule dans un \textbf{lycée}, organisation proche du lycée ;
+		\item Études courtes : diplôme en 2 ans ;
+		\item Poursuite possible en licence pro (1 an) ; 
+		\item Possibilité d'une année de prépa ATS (1an) pour entrer en école d'ingénieurs (3 années supplémentaires).
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{Exemples de BTS}
+	Toutes les formations ne sont pas disponibles dans tous les lycées. Il faut se renseigner. Voici quelques thématiques :
+	\begin{itemize}
+		\item Audiovisuel, informatique, télécoms et numérique ;
+		\item Bâtiments, travaux publics, architecture ;
+		\item Commerce ;
+		\item Construction navale, ferroviaire et aéronautique, maintenance, matériaux et mécanique ;
+		\item Énergies, électronique et environnement ;
+		\item Paramédical.
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{DUT : Diplôme universitaire de technologie}
+	Quelques similitudes avec le BTS.
+	Informations disponibles \texttt{\href{http://www.onisep.fr/Choisir-mes-etudes/Apres-le-bac/Que-faire-apres-le-bac/Que-faire-apres-le-bac-STI2D-sciences-et-technologies-de-l-industrie-et-du-developpement-durable/Les-BTS-et-DUT-apres-le-bac-STI2D}{ici}}.
+	\begin{itemize}
+		\item Formation professionnalisante \textbf{généraliste} ;
+		\item Formation accessible sur dossier ;
+		\item Formation \textbf{universitaire}, se déroule dans un \textbf{IUT} (Institut Universitaire de Technologie), 
+			l'organisation est \textbf{assez différente du lycée}.
+		\item Études courtes : diplôme en 2 ans. Comme le DUT est plus généraliste que le BTS, il y a \textbf{plus de possibilités de poursuite d'études}.
+		\item Poursuite possible en licence pro (1 an) ou \textbf{dans certaines écoles d'ingénieurs} (3 ans)
+	\end{itemize}
+	
+}
+
+\frame{
+	\frametitle{Exemples de DUT}
+	DUT accessibles avec un bac STI2D:\\
+\vspace{1em}
+	\scriptsize
+	\begin{minipage}[b]{0.48\linewidth}
+		\begin{itemize}
+			\item Chimie option chimie des matériaux ;
+			\item Génie chimique, génie des procédés options bio-procédés (GC GP) et procédés (GCh GP) ;
+			\item Génie civil -- construction durable ;
+			\item Génie électrique et informatique industrielle (GEII) ;
+			\item Génie industriel et maintenance (GIM) ;
+			\item Génie mécanique et productique (GMP) ;
+			\item Génie thermique et énergie (GTE) ;
+			\item Hygiène, sécurité, environnement ;
+		\end{itemize}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[b]{0.48\linewidth}
+		\begin{itemize}
+			\item Informatique ;
+			\item Mesures physiques (MP) ;
+			\item Métiers du multimédia et de l'Internet (MMI) ;
+			\item Packaging, emballage et conditionnement (PEC) ;
+			\item Qualité, logistique industrielle et organisation (QLIO) ;
+			\item Réseaux et télécommunications (RT) ;
+			\item Science et génie des matériaux ;
+			\item Statistique et informatique décisionnelle (STID).
+		\end{itemize}
+	\end{minipage}
+}
+
+\frame{
+	\frametitle{Exemple d'emploi du temps en DUT GEII}
+	\begin{itemize}
+		\item Exemple: module d'informatique au premier semestre de la première année ;
+			\begin{itemize}
+				\item Du 31 octobre au 20 janvier ;
+			\end{itemize}
+		\item Promo d'environ 100 étudiants ;
+			\begin{itemize}
+				\item Découpée en 4 groupes de TD,
+				\item Eux mêmes découpés en 2 groupes de TP ;
+			\end{itemize}
+		\item Module organisé en CM/TD/TP ;
+		\item Plusieurs modules en parallèle ;
+			\begin{itemize}
+				\item On finit le module SIN pendant qu'on commence le module Informatique ;
+			\end{itemize}
+		\item Une fois le module terminé, on passe à autre chose ;
+			\begin{itemize}
+				\item On continue à faire de l'informatique, avec le module microprocesseur au S2.
+			\end{itemize}
+	\end{itemize}
+		
+	\texttt{Exemple en PDF}
+	% TODO mail Tahar
+}
+
+\frame{
+	\frametitle{Écoles d'ingénieurs post-bac}
+	Alors que les programmes en BTS/DUT sont définis par le ministère, les écoles d'ingénieurs sont toutes différentes les unes des autres.
+	Informations disponibles \texttt{\href{http://www.onisep.fr/Choisir-mes-etudes/Apres-le-bac/Que-faire-apres-le-bac/Que-faire-apres-le-bac-STI2D-sciences-et-technologies-de-l-industrie-et-du-developpement-durable/Les-ecoles-apres-le-bac-STI2D}{ici}}.
+	\begin{itemize}
+		\item Formation professionnalisante spécialisée ou généraliste, possibilité de personnaliser le cursus ;
+		\item Formation accessible sur dossier, concours ET entretiens ;
+		\item Bon niveau en maths, en physique et en ETT requis ;
+		\item La formation varie d'une école à l'autre, mais l'organisation ressemble plus à celle du DUT ;
+		\item Études longues : diplôme en 5 ans. Prépa intégré ou \og{}diluée\fg{} ;
+		\item Possibilité de faire un master recherche pour continuer en doctorat.
+	\end{itemize}
+
+	\texttt{\href{http://www.geipi-polytech.org/les-ecoles-du-concours-geipi-polytech}{Exemple de \og{}banque\fg{} de concours}}.
+%	\texttt{\href{http://www.geipi-polytech.org/les-ecoles-du-concours-geipi-polytech#}{test}}.
+}
+
+\frame{
+	\frametitle{L'université}
+	Informations disponibles \texttt{\href{http://www.onisep.fr/Choisir-mes-etudes/Apres-le-bac/Que-faire-apres-le-bac/Que-faire-apres-le-bac-STI2D-sciences-et-technologies-de-l-industrie-et-du-developpement-durable/L-universite-apres-le-bac-STI2D}{ici}}.
+	\begin{itemize}
+		\item Formation théorique généraliste, puis spécialisation possible ;
+		\item Ouverte à tous (mais ça risque de changer) ;
+		\item Bon niveau requis pour réussir, et surtout \textbf{beaucoup d'autonomie} ;
+		\item Oranisation universitaire, tronc commun et UE spécialisées ;
+		\item Études plutôt longues, 3 ans pour la licence, 5 pour le master ;
+		\item Possibilité de poursuivre en doctorat.
+	\end{itemize}
+}
+
+\frame{
+	\frametitle{Prépa TSI}
+	Informations disponibles \texttt{\href{http://www.onisep.fr/Choisir-mes-etudes/Apres-le-bac/Que-faire-apres-le-bac/Que-faire-apres-le-bac-STI2D-sciences-et-technologies-de-l-industrie-et-du-developpement-durable/Les-classes-preparatoires-aux-grandes-ecoles-apres-le-bac-STI2D}{ici}}.
+	\begin{itemize}
+		\item Formation \textbf{non-}professionnalisante. Ne délivre pas de diplôme, il \textbf{faut} continuer en école d'ingénieurs ;
+		\item Formation accessible sur dossier, bon niveau requis ;
+		\item Beaucoup de travail et de rigueur sont demandés pour réussir ;
+		\item Se déroule au lycée, organisation proche de celle du lycée ;
+		\item Dure 2 ans mais mène à des études plus longues (2 années de prépas puis 3 ans d'école d'ingénieurs).
+	\end{itemize}
+}
+
+\end{document}
