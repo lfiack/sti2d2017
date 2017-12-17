@@ -89,3 +89,76 @@ Terminer l'activité Production, transport et distribution de l’énergie élec
 ##07/12/17
 Cours sur les différentes formes d'énergie
 Exercices 6 à 8
+
+##11/12/17
+Activité treuil lego
+
+TODO Ramener balance + metre + scotch
+
+Groupe 1 de 12h50 à 13h55
+Groupe 2 de 13h55 à 15h
+
+Accueillir les élèves dans le couloir, les briefer avant de les laisser rentrer:
+* Les élèves sont par demi-groupe, il faut qu'ils essayent au maximum de respecter les îlots habituels, parce qu'il y a des manipulations à effectuer.
+* Les élèves occupent les 4 îlots les plus proches.
+
+Distribuer doc réponse, projeter sujet, demander aux élèves d'allumer le pc, puis de suivre l'intro.
+
+Objectifs:
+* À travers l'étude d'un treuil en lego, confronter le calcul théorique et la mesure.
+* Mettre en évidence la puissance utile, puissance absorbée et donc les pertes.
+* Découvrir différents types de pertes (effet joule, frottements). Évolution des pertes en fonction de la charge.
+
+Présentation du sujet et du matériel:
+* Moteur, engrenage, charge
+* Compteur d'énergie/Batterie
+* Module NXT (Batterie de recharge)
+
+Demander aux élèves de télécharger et de déziper le dossier.
+
+N'ont pas rendu le dernier compte-rendu:
+* DUHAMEL Louis Mercredi
+* DURIEZ Antonio OK
+* IMGHARBA Abdel Adel OK
+* INSOULI Jean-Emmanuel OK
+* KINGUE MOUELLE Antoine (TP1 non plus) TP1 OK TP2 Mercredi
+* SAINT-REQUIER Corentin Mercredi -1
+* YAO Barclay Mercredi -1
+
+##13/12/17
+Suite activité treuil lego (groupe mur)
+
+* Donc vous savez tous comment on utilise le systèmes, donc je vais pas m'étendre sur les explications.
+* Comme on a 1h d'avance, vous ferez AUSSI les questions facultatives.
+* Bien lire le sujet AVANT de commencer les mesures.
+* Vous m'appelez AVANT de faire une mesure pour tout vérifier.
+
+##14/12/17
+Éval énergétique: 3 questions de TD
+Cours énergétique
+TODO : 
+* Slide 9 (8)
+
+##18/12/17
+Suite activité treuil lego (groupe fenetre)
+
+TODO: Corrections Sujet AP5 El Hierro:
+* Densité de puissance = W/m² (combien peut-on produire de Watt avec un m²)
+* m²/W = surface spécifique (combien faut-il de m² pour produire un Watt)
+* Dans la doc de l'éolienne, changer le terme "densité de puissance" par "surface spécifique"
+* Dans le sujet, changer m²/W par W/m².
+
+* P6, remplacer "/" par ";"
+* Q11 : remplacer "quantité" par "masse"
+* Q15 : remplacer "bassin inférieur" par "bassin supérieur"
+
+* Batterie : phi = déphasage ; cos phi = facteur de puissance
+
+##20/12/17
+Resynchronisation
+Fin activité treuil ?
+Début activité proteus ?
+
+##21/12/17
+Cours énergétique
+
