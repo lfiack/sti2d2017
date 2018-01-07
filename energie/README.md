@@ -136,8 +136,6 @@ Suite activité treuil lego (groupe mur)
 ##14/12/17
 Éval énergétique: 3 questions de TD
 Cours énergétique
-TODO : 
-* Slide 9 (8)
 
 ##18/12/17
 Suite activité treuil lego (groupe fenetre)
@@ -156,9 +154,109 @@ TODO: Corrections Sujet AP5 El Hierro:
 
 ##20/12/17
 Resynchronisation
-Fin activité treuil ?
-Début activité proteus ?
+Activité liaisons
+
+Il me manque l'AP2 "EDT Production, transport et distribution de l'énergie électrique" de:
+* DUHAMEL OK
+* KINGUE OK
+
+Il me manque l'AP3 "Energie et principes de base : expérimentation sur un treuil" de:
+* DURIEZ
+* GUYARD (absent)
+* INSOULI JE OK
+* LEPRETRE OK
 
 ##21/12/17
-Cours énergétique
+###Débriefing éval:
+Les résultats sont décevant. 
+Vous n'êtes pas capable de :
+* Retourner une équation
+* Calcul mental (sérieusement)
+* Différence entre énergie et puissance
+* Un Joule, c'est un Watt seconde, PAS un Watt par seconde. 
+	C'est l'énergie consommée par un système qui consomme un Watt pendant une seconde.
+* Même chose avec KiloWatt heure.
+* Un Watt, c'est un Joule par seconde
+* Calcul : Expression litérale, puis application numérique.
 
+Mais en même temps, c'est pas surprenant, vous ne travaillez pas.
+Le cours est peut-être trop compliqué ? Pas assez bien expliqué ? Probablement même un peu chiant ?
+De toutes façons, vous aurez pas le choix. La puissance, l'énergie, le rendement, ça va tomber au bac. 
+C'est des points faciles, autant se les assurer.
+Et puis ça servira de toutes façon après, que vous soyez SIN ou ITEC.
+
+Alors on pourrait lister encore et encore ce que vous ne savez pas faire, ça servira a rien.
+Donc on va faire des exercices, jusqu'à ce que ça rentre. 
+Et si vous n'y arrivez pas, je suis là pour vous aider. 
+On a 1h d'accompagnement personnalisé chaque semaine pour que je vous ré-explique 
+ce que vous avez pas compris.
+
+Après, comme vous ne faites pas les exercices en TD, et que vous ne travaillez pas chez vous, 
+à partir de maintenant les exercices seront ramassés et notés.
+Et pour marquer le coup, je vous ai préparé un DM que vous me rendrez le jeudi de la rentrée.
+
+###Cours chaîne d'énergie
+Maintenant qu'on a fait le point, et avant de passer au DM, on va finir la synthèse sur les rendements.
+
+###Devoir Maison
+1. Retournement d'équations
+	* Q2
+2. Grandeurs physiques
+	* Je vous laisse voir ça tous seuls. Vous pouvez chercher dans votre cours ou sur internet.
+3. Puissance et Énergie
+	* Attention aux unités
+	* Q13 
+4. Calculs de rendement
+	* Le rendement peut se calculer sur les puissances ou sur les énergies
+	* Q18
+
+Retournement d'équations:
+On donne l'équation suivante E = (delta)t * P avec E l'énergie en Joule, (delta)t la durée en secondes et P la puissance en Watt.
+* Donnez P en fonction de E et (delta)t
+* Donnez (delta)t en fonction de P et E
+
+On donne l'équation suivante nu = Eu/Ec 
+* Donnez Eu en fonction de nu et de Ec
+* Donnez Ec en fonction de nu et Eu
+
+On donne la célèbre équation suivante E = mc² avec E l'énergie en Joule, m la masse en kg et c la vitesse de la lumière dans le vide en m/s:
+* Donnez m en fonction de E et c
+* Donnez c en fonction de E et m
+
+On donne l'équation fictive suivante St = I / 2d
+* Donnez I en fonction de St et d
+* Donnez d en fonction de St et I
+
+Grandeurs:
+De quels grandeurs physiques sont les unités suivantes:
+Watt
+Joule
+kWh
+Exprimer l'unité Watt en Joule et en seconde
+Exprimer l'unité Joule en Watt et en seconde
+
+Calculs puissances/énergie
+Exercices 4, 5, 6, 7 (x2)
+
+Calculs rendement
+Exercices 8, 9, 10 (x2)
+
+17h DUHAMEL TODO trouver salle
+
+##Lundi 08/01/18
+Bonjour, bonne année, vous avez passé de bonnes vacances? 
+Je vous rappelle que vous avez un DM à me rendre pour jeudi, vous pouvez me poser des questions dessus pendant la séance.
+
+Kingue et Belabes doivent passer le contrôle.
+Duriez doit me rendre l'AP3
+
+Aujourd'hui on aborde une nouvelle activité, toujours sur l'énergétique.
+On va commencer par regarder deux extraits de JT.
+D'abord France 2:
+pause à 0'55 : "Capacité électrique?" "Ça représente une sacrée énergie" -> Là, il parle de la puissance.
+Ensuite TF1:
+pause à 1'27 : Ici il s'agit plutôt de la puissance qui n'est pas constante
+
+Quelqu'un peut me résumer ce qu'on vient de voir ?
+
+Donc aujourd'hui vous allez étudier la centrale éolienne/hydrolique de l'ile de Hierro, vous avez tous les documents sur l'ent, et voici les documents réponses à rendre à la fin de la séance.
