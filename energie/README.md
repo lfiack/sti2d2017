@@ -244,11 +244,25 @@ Exercices 8, 9, 10 (x2)
 17h DUHAMEL TODO trouver salle
 
 ##Lundi 08/01/18
+Kingue et Belabes doivent passer le contrôle.
+Kingue -> Jeudi AP
+Duriez doit me rendre l'AP3 OK
+
 Bonjour, bonne année, vous avez passé de bonnes vacances? 
 Je vous rappelle que vous avez un DM à me rendre pour jeudi, vous pouvez me poser des questions dessus pendant la séance.
 
-Kingue et Belabes doivent passer le contrôle.
-Duriez doit me rendre l'AP3
+Conseil pratique: faille matérielle sur proc Intel : mettez à jour vos ordis (meltdown et spectre)
+
+Rappel trois dernières activités:
+* Mesure puissance/énergie sur divers appareils (lampes, radiateurs)
+	* Mesure de la puissance et de l'énergie pendant 20 minutes -> conclusion
+* Étude de dossier production/transport/distribution de l'énergie électrique
+* Treuil lego: Mesure puissance, énergie, tension, courant
+	* Calcul de rendement, bilan énergétique, pertes
+
+J'ai corrigé les comptes rendus (pas encore mis sur pronote).
+La partie manip est généralement bien faite, par contre, il manque souvent une conclusion
+-> C'est la partie la plus imporante. Sans conclusion, ça sert à rien de faire des manips.
 
 Aujourd'hui on aborde une nouvelle activité, toujours sur l'énergétique.
 On va commencer par regarder deux extraits de JT.
@@ -260,3 +274,11 @@ pause à 1'27 : Ici il s'agit plutôt de la puissance qui n'est pas constante
 Quelqu'un peut me résumer ce qu'on vient de voir ?
 
 Donc aujourd'hui vous allez étudier la centrale éolienne/hydrolique de l'ile de Hierro, vous avez tous les documents sur l'ent, et voici les documents réponses à rendre à la fin de la séance.
+
+##Mercredi 10/01/18
+Idem Lundi
+
+##Jeudi 11/01/18
+TD - Chaîne d'\''énergie - Centrales EDF (ELEVE).doc (Ex1 ensemble, Ex2 autonome -> Ramassé à la fin de la séance) 
+Exercices - Chaines d'énergie.doc (Ex1:peut-être supprimer la q1;Ex2:Voir la première vidéo;q2 ensemble;Ex3:autonome)
+TD - Chaîne d'énergie - Agrafeuse.doc (À voir)
