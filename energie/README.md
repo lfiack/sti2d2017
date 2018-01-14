@@ -282,3 +282,39 @@ Idem Lundi
 TD - Chaîne d'\''énergie - Centrales EDF (ELEVE).doc (Ex1 ensemble, Ex2 autonome -> Ramassé à la fin de la séance) 
 Exercices - Chaines d'énergie.doc (Ex1:peut-être supprimer la q1;Ex2:Voir la première vidéo;q2 ensemble;Ex3:autonome)
 TD - Chaîne d'énergie - Agrafeuse.doc (À voir)
+
+##Lundi 15/01/18
+*TODO*
+Ramasser AP4
+Ramasser DM :
+* DUHAMEL
+* GUYARD
+* KINGUE
+* VANTYGHEM
+
+Alors aujourd'hui je vais vous parler de Jacky. 
+Jacky est un fan de tuning. Là, il a acheté des nouveaux phares pour sa voiture, des phares bleus, parce que c'est trop stylé.
+Mais mais mais, ces nouveaux phares, ils sont en 90W alors que ceux d'origine sont en 60W.
+Normalement, des phares dans une voiture, c'est câblé comme ça: *Schéma*
+On dit qu'ils sont montés en parallèle.
+Jacky compte bidouiller le faisceau électrique de sa voiture pour le recabler comme ça : *Schéma*.
+Ici c'est un montage série.
+Comme c'est maintenant le même courant qui traverse le circuit, Jacky pense qu'il va diviser la puissance par deux, 45W, c'est bon.
+
+Alors Jacky, il se trompe. On va voir dans cette activité comment et pourquoi.
+
+* On va utiliser un nouveau logiciel : Proteus -> Saisie de schémas électriques/électroniques et simulation.
+* Je vais vous distribuer un sujet et une fiche utilisateur, que vous trouverez également sur l'ENT.
+* Vous téléchargerez un fichier d'exemple, sur lequel vous allez travailler. 
+* Quand vous allez l'ouvrir, windows ne saura pas quoi en faire, il faudra lui préciser qu'il faut l'ouvrir avec Proteus.
+
+* Il y a plusieurs questions dans le sujet, auxquelles vous répondrez dans un diaporama. 
+* Essayez de faire quelque chose de plus visuel que Q1:réponse, Q2:réponse.
+* Le sujet est pas très long, essayez de vous appliquer sur le diaporama.
+* N'hésitez pas à m'appeler si vous avez le moindre soucis. Le but de cette activité c'est surtout que vous découvriez ce nouveau logiciel.
+
+##Mercredi 17/01/18
+Idem lundi
+
+##Jeudi 18/01/18
+Évaluation
