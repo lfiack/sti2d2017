@@ -4,8 +4,24 @@
 ##Semaine 1
 Slides présentation lampe garage
 AP: Logique combinatoire
-CM: Cours lampe garage (TODO) + exos intégrés + distribuer cours logique combinatoire
+CM: Cours lampe garage + exos intégrés + distribuer cours logique combinatoire
 Maison: QCM (pronote, TODO)
+
+###Lundi 22/01/2018
+Introduction Slides 1 à 4. 
+Présentation sujet :
+Une fiche d'activité : Répondre dessus (à rendre à la fin de la séance)
+Pensez à mettre vos noms !
+Travail sur proteus.
+Sujet :
+* Partie intro à faire RAPIDEMENT
+* 3 fonctions logiques de base (NON, ET, OU)
+* 4 fonctions pour aller plus loin.
+
+###Jeudi 25/01/2018
+Distribuer cours
+Cours Lampe garage + faire passer les élèves au tableau
+Exercices ?
 
 ##Semaine 2
 AP: Lien entre logique câblée et fonctions logiques
