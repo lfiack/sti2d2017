@@ -287,7 +287,7 @@ TD - Chaîne d'énergie - Agrafeuse.doc (À voir)
 *TODO*
 Ramasser AP4
 Ramasser DM :
-* DUHAMEL
+* DUHAMEL OK
 * GUYARD
 * KINGUE
 * VANTYGHEM
