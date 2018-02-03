@@ -45,3 +45,13 @@ Rendu du contrôle de sysml du 1er trimestre
 
 ##Jeudi 11/01/17
 Corrigé AP4 à partir de la question 10
+
+##Jeudi 17/01/17
+Éval énergie
+
+##Jeudi 24/01/17
+Rendre les contrôles de codage et d'énergie
+Faire passer le contrôle à ceux qui ne l'auraient pas passé.
+Travail de remédiation en groupes
+
+Manque les AP1 de HAULLE et KING

@@ -317,4 +317,4 @@ Alors Jacky, il se trompe. On va voir dans cette activité comment et pourquoi.
 Idem lundi
 
 ##Jeudi 18/01/18
-Évaluation
+révisions éval
