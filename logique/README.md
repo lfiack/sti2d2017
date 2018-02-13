@@ -84,13 +84,26 @@ Maison: QCM
 
 ###Jeudi 01/02/2018
 Exercice lève vitre (élèves au tableau)
-Fin du cours sur les schémas à contact
 
 Devoirs : Lire Page 3, 4 et 5 -> QCM
 
 ##Semaine 3
-AP: Suite AP2 ou AP proc (TODO)
-CM: Exos
+Lundi 05/02/2018 : Groupe Fenêtre AP 2 et demi + Début AP3
+Mercredi 07/02/2018 : Classe entière AP3
+* Séance un petit peu différente de ce qu'on fait d'habitude
+* Vous allez travailler en binôme sur des activités différentes. 
+	* Alors c'est nous qui avons constitué les binômes.
+* Il y a des niveaux de difficulté différents.
+* Vous allez tirer au sort deux sujets, Facile/Moyen ou Moyen/Difficile.
+* Après ça, vous lisez les sujets et vous en choississez un parmi les deux.
+* Pour l'évaluation, si vous choississez un niveau moyen ou difficile vous aurez des points bonus
+* On va travailler sur cette activité aujourd'hui et lundi.
+	* Aujourd'hui manip' / rédaction
+	* Lundi Soutenance de 6 minutes en demi-groupe
+	* Chaque demi-groupe participe à toutes les présentations du demi-groupe.
+	* Poser des questions (c'est évalué)
+
+Jeudi 08/02/2018 : Cours sur les contacts + TD
 
 Devoirs : Lire Page 6 et 7 -> QCM
 
@@ -98,8 +111,45 @@ Devoirs : Lire Page 6 et 7 -> QCM
 AP: Applications
 CM: Exos + révision eval
 
+Lundi : Suite AP 3
+Mercredi : SMEDAR
+
+Jeudi : TD type contrôle (avec documents)
+
 Devoirs : exos
 
+Sujet DM : Dérailleur électrique SRAM RED E-TAP
+La batterie du dérailleur contient xx Wh.
+Le moteur consomme xx J pour changer de vitesse.
+Combien de fois peut-on changer de vitesse sans recharger ?
+
+Capacité 300mAh, Tension 7.4V -> 2.22 Wh = 7992.00J ~ 8000J
+Courant charge 1C 300mA
+
+1000km d'autonomie (60h) -> 2.22Wh/60h = 37mW
+TODO : Quelle puissance moteur dérailleur?
+
+rechargement 45 minutes = 0.75h
+2.22Wh/.75h = 2.96W
+8000J
+
+Bouton Bu et Bd (monter et descendre le dérailleur)
+Butées H et L (position haute et position basse)
+Sortie Mu et Md (moteur monte et descend)
+
+Mu = Bu./H./Md.L + Bu./H./Md./L = Bu./H./Md
+Md = Bd./L./Mu.H + Bd./L./Mu./H = Bd./L./Mu
+
+* Problématique/Contraintes
+* Terminologie 
+* Démarche : Table de vérité/Equations/Logigramme
+* Solutions/Résultats
+
+* Difficulté
+* Qualité
+* Réponse aux questions
+* Participation
+
 ##Semaine 5
-AP: Soutenances
+AP: Préparation 1h + Soutenances 1h
 CM: Éval
