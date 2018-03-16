@@ -153,3 +153,26 @@ Md = Bd./L./Mu.H + Bd./L./Mu./H = Bd./L./Mu
 ##Semaine 5
 AP: Préparation 1h + Soutenances 1h
 CM: Éval
+
+lundi 19:
+* présentations
+	* 6 minutes par binomes
+	* phase de questions
+	* Évaluation
+
+###Évaluation
+Ex1 : 8-10 minutes ; 15 questions ; 9 points (chaque question 1/2 point, q10 2 points)
+Ex2 : 6-8 minutes ; 5 questions ; 5 points
+Ex3 : 6-8 minutes ; 3 questions ; 6 points
+Ex4 : 8-10 minutes ; 4 questions ; 8 points
+Ex5 : 12-15 minutes ; lut ; equ : sch ; 12 points
+
+40 points
+
+###AP/Révision jeudi 22/02/2018
+Ramassage DM
+Rappel débat nucléaire
+Sujet masqué -> Sujet long, organisation, ne pas rester bloqué
+table de vérité avec beaucoup de 1
+Correction DM
+Correction Exo 3
